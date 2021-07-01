@@ -33,6 +33,12 @@ header {
 
 .logo img {
     height: 100%;
+    transition: 1s ease-in;
+}
+
+.logo img:hover {
+    height: 120%; 
+    transition: 2s ease-out;
 }
 
 .left-nav {
@@ -53,4 +59,8 @@ header {
     padding-left: 24px;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li:hover {
+    color: rgba(255, 166, 0, 0.794);
 }
